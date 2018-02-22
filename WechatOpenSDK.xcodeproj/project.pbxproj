@@ -319,7 +319,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/WechatOpenSDK",
 				);
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.alexg.WechatOpenSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -348,7 +351,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/WechatOpenSDK",
 				);
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.alexg.WechatOpenSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
