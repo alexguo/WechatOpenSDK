@@ -323,10 +323,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EXCLUDED_ARCHS = "";
-<<<<<<< HEAD
-=======
 				"EXCLUDED_ARCHS[sdk=*]" = arm64;
->>>>>>> b86a51276db841e92c2030d27e763d3858da6949
 				INFOPLIST_FILE = WechatOpenSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -361,10 +358,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EXCLUDED_ARCHS = "";
-<<<<<<< HEAD
-=======
 				"EXCLUDED_ARCHS[sdk=*]" = arm64;
->>>>>>> b86a51276db841e92c2030d27e763d3858da6949
 				INFOPLIST_FILE = WechatOpenSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
