@@ -10,13 +10,9 @@
 		B6792AFD203676DF00B6319B /* WechatOpenSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = B6792AFB203676DF00B6319B /* WechatOpenSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6792B08203676EF00B6319B /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B6792B03203676EF00B6319B /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6792B09203676EF00B6319B /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = B6792B04203676EF00B6319B /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6792B0A203676EF00B6319B /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6792B05203676EF00B6319B /* libWeChatSDK.a */; };
 		B6792B0B203676EF00B6319B /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = B6792B06203676EF00B6319B /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6792B2520368FE300B6319B /* dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6792B2420368FE300B6319B /* dummy.swift */; };
 		B6792B272036901100B6319B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6792B262036901100B6319B /* libsqlite3.tbd */; };
-		B6792B282036901F00B6319B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6792B1D2036873900B6319B /* CFNetwork.framework */; };
-		B6792B292036903100B6319B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6792B172036872500B6319B /* SystemConfiguration.framework */; };
-		B6792B2A2036903C00B6319B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6792B1B2036873300B6319B /* CoreTelephony.framework */; };
 		B6792B2E2036905700B6319B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6792B2D2036905700B6319B /* libz.tbd */; };
 		B6792B2F2036906100B6319B /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6792B212036888D00B6319B /* libstdc++.tbd */; };
 		B6965A9C284F4A190069476C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6965A9B284F4A190069476C /* WebKit.framework */; };
@@ -52,11 +48,7 @@
 				B6792B2F2036906100B6319B /* libstdc++.tbd in Frameworks */,
 				B6792B2E2036905700B6319B /* libz.tbd in Frameworks */,
 				B6965A9C284F4A190069476C /* WebKit.framework in Frameworks */,
-				B6792B2A2036903C00B6319B /* CoreTelephony.framework in Frameworks */,
-				B6792B292036903100B6319B /* SystemConfiguration.framework in Frameworks */,
-				B6792B282036901F00B6319B /* CFNetwork.framework in Frameworks */,
 				B6792B272036901100B6319B /* libsqlite3.tbd in Frameworks */,
-				B6792B0A203676EF00B6319B /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
