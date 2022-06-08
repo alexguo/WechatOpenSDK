@@ -12,10 +12,7 @@
 		B6792B09203676EF00B6319B /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = B6792B04203676EF00B6319B /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6792B0B203676EF00B6319B /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = B6792B06203676EF00B6319B /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6792B2520368FE300B6319B /* dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6792B2420368FE300B6319B /* dummy.swift */; };
-		B6792B272036901100B6319B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6792B262036901100B6319B /* libsqlite3.tbd */; };
-		B6792B2E2036905700B6319B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6792B2D2036905700B6319B /* libz.tbd */; };
 		B6792B2F2036906100B6319B /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6792B212036888D00B6319B /* libstdc++.tbd */; };
-		B6965A9C284F4A190069476C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6965A9B284F4A190069476C /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,9 +43,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6792B2F2036906100B6319B /* libstdc++.tbd in Frameworks */,
-				B6792B2E2036905700B6319B /* libz.tbd in Frameworks */,
-				B6965A9C284F4A190069476C /* WebKit.framework in Frameworks */,
-				B6792B272036901100B6319B /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
