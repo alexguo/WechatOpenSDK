@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B64A2DA32888F03B0048CA3D /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6792B05203676EF00B6319B /* libWeChatSDK.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		B6792AFD203676DF00B6319B /* WechatOpenSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = B6792AFB203676DF00B6319B /* WechatOpenSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6792B08203676EF00B6319B /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B6792B03203676EF00B6319B /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6792B09203676EF00B6319B /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = B6792B04203676EF00B6319B /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6792B0B203676EF00B6319B /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = B6792B06203676EF00B6319B /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6792B2520368FE300B6319B /* dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6792B2420368FE300B6319B /* dummy.swift */; };
 		B6792B2F2036906100B6319B /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6792B212036888D00B6319B /* libstdc++.tbd */; };
-		B6965AF82850401A0069476C /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6792B05203676EF00B6319B /* libWeChatSDK.a */; };
 		B6965AF92850402B0069476C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6965A9B284F4A190069476C /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,9 +44,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6965AF82850401A0069476C /* libWeChatSDK.a in Frameworks */,
 				B6792B2F2036906100B6319B /* libstdc++.tbd in Frameworks */,
 				B6965AF92850402B0069476C /* WebKit.framework in Frameworks */,
+				B64A2DA32888F03B0048CA3D /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +312,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EXCLUDED_ARCHS = "";
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = WechatOpenSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -321,7 +321,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/WechatOpenSDK",
 				);
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -347,7 +347,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EXCLUDED_ARCHS = "";
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = WechatOpenSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -356,7 +356,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/WechatOpenSDK",
 				);
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
